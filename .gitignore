@@ -31,3 +31,7 @@ bin/
 # fabric
 
 run/
+
+# testing stuff
+
+src/main/com/strix12/strixlib/test/
