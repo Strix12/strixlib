@@ -3,27 +3,26 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Strix Lib",
+  "description": "A library mod for my other mods.",
   "authors": [
-    "Me!"
+    "strix12"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Strix12/strixlib"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/strixlib/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.strix12.strixlib.StrixLib"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "strixlib.mixins.json"
   ],
 
   "depends": {
@@ -32,7 +31,5 @@
     "minecraft": "~1.19",
     "java": ">=17"
   },
-  "suggests": {
-    "another-mod": "*"
-  }
+  "suggests": {}
 }
